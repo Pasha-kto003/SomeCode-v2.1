@@ -18,9 +18,11 @@ namespace ConsoleApp15
             //Console.WriteLine("Количество элементов");
             //int count = int.Parse(Console.ReadLine());
             //Print(symbol, count);
-            int[] array = { 2, 7, 8, 10, 12 };
-            int res = FindElement(array, 10);
-            Console.WriteLine(res);
+            //int[] array = RandomMassive(10, -20, 10);
+            //int res = FindElement(array, 2);
+            //Console.WriteLine(res);
+
+            
         }
 
         //static void Stroka()
@@ -67,16 +69,28 @@ namespace ConsoleApp15
         //    }
         //}
 
-        static int FindElement(int[] massive, int value)
-        {
-            for (int i = 0; i < massive.Length; i++)
-            {
-                if(massive[i] == value)
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }
+        //static int[] RandomMassive(int count, int min, int max)
+        //{
+        //    int[] myArray = new int[count];
+        //    Random random = new Random();
+        //    for (int i = 0; i < myArray.Length; i++)
+        //    {
+        //        myArray[i] = random.Next(min, max);
+        //    }       
+        //    return myArray;
+        //}
+
+        //static int FindElement(int[] massive, int value)
+        //{
+        //    for (int i = 0; i < massive.Length; i++)
+        //    {
+        //        if (massive[i] == value)
+        //        {
+        //            return i;
+        //        }
+        //    }
+        //    return -1;
+        //}
+
     }
 }
